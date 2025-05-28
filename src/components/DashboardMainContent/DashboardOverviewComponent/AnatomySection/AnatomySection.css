@@ -13,23 +13,23 @@ img{
   height: 50vh;
   width: 30vw;
 }
+
+.rotate-image{
+  height: 50px;
+  width: 100px;
+}
 .body-image {
   width: 100%;
   /* max-height: 40vh; */
 }
 
 .anatomy-indicator {
+  padding: 5px 10px 5px 10px ;
+  border-radius: 5px;
   position: absolute;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 600;
   transform: translate(-50%, -50%);
-}
-
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  display: inline-block;
 }
 
 

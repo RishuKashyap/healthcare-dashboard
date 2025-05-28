@@ -7,23 +7,23 @@ import boneIcon from '../assets/icons/bone.png';
 export const healthStatusData = [
   {
     title: "Lungs",
-    status: "Needs Attention",
     date: "2025-05-20",
-    color: "#DEE1F9",
+    color: "#AA4647",
     icon: lungIcon,
+    percent: 70,
   },
   {
     title: "Teeth",
-    status: "Healthy",
     date: "2025-05-18",
-    color: "#DEE1F9",
+    color: "#75D3BF",
     icon: toothIcon,
+    percent: 70,
   },
   {
     title: "Bone",
-    status: "Checkup Due",
     date: "2025-05-22",
-    color: "#DEE1F9",
+    color: "#FC7E5E",
     icon: boneIcon,
+    percent: 70,
   },
 ];

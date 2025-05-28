@@ -12,15 +12,20 @@
 }
 
 .top-row {
-  display: flex;
+  /* display: flex;
   gap: 16px;
   margin-bottom: 16px;
-  align-items: flex-start;
+  align-items: flex-start; */
+
+  display: grid;
+  grid-template-columns: 2.5fr 1fr; /* Anatomy:HealthCards = 2:1 */
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
 .anatomy-section,
 .health-status-cards {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   height: auto;
