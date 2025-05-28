@@ -1,0 +1,35 @@
+/* AnatomySection.css */
+
+.anatomy-section {
+  position: relative;
+  /* flex: 1; */
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+img{
+  height: 50vh;
+  width: 30vw;
+}
+.body-image {
+  width: 100%;
+  /* max-height: 40vh; */
+}
+
+.anatomy-indicator {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 600;
+  transform: translate(-50%, -50%);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+

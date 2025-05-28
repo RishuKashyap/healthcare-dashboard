@@ -1,0 +1,51 @@
+.dashboard-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: flex-start;
+}
+
+.anatomy-section,
+.health-status-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.activity-feed{
+  width: max-content;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  gap: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .dashboard-content {
+    grid-template-columns: 1fr;
+  }
+
+  .top-row {
+    flex-direction: column;
+  }
+}
+
+

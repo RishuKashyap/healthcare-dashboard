@@ -1,0 +1,24 @@
+.simple-appointment-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.info h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.875rem;
+}
